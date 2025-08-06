@@ -1,0 +1,5 @@
+def verse():
+    print('Happy birthday to you. \nHappy birthday to you. \nHappy birthday. Happy birthday.')
+def single_line():
+    print('Happy birthday to you.')
+verse() ; single_line() ; verse() ; single_line() ; print('Happy birthday. \nHappy birthday. \nHappy birthday. \nto you.') ; verse()
