@@ -1,6 +1,7 @@
 '''
 Author: Chris
 Version: 1.0
+Date: 
 Description: This is a number guessing game
 '''
 def guessing():
@@ -32,4 +33,5 @@ def guessing():
     print(f'You guessed {guesses} times!')
 
 #-----main program------
-guessing()
+if __name__ == '__main__':
+    guessing()
