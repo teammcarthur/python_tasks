@@ -6,7 +6,13 @@ Description: This is a number guessing game
 '''
 def guessing():
     import random
-    name = input('Please enter your name: ')
+    while(True):
+        name = input('Please enter your name: ')
+        if(len(name) >=2 and len(name) <= 20 and name.isalpha):
+                break
+        else:
+                print('This is an invalid name')
+                continue
     number = random.randint(1, 10)
     numberint = int(number)
     guesses = 0
