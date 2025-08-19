@@ -9,7 +9,7 @@ import random
 import time
 
 #---functions-------------
-def letterinputs():
+'''def letterinputs():
     letterlist = []
     while(True):
         while(True):
@@ -37,4 +37,7 @@ if __name__ == '__main__':
 
     en_hp = 100
     en_dff = 13
-    letterinputs()
+    letterinputs()'''
+attack = input('enter')
+if(attack[0].lower() == 's'):
+    print('test')

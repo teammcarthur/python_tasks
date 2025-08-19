@@ -24,13 +24,13 @@ if __name__ == '__main__':
         while(True):
             try:
                 attack = input('Please enter your attack [s]word [a]xe [h]eal: ') #makes the user enter something
-                if(attack[0].lower() == 'a' or attack[0].lower == 's' or attack[0].lower() == 'h'): #checks that they entered a valid option
+                if(attack[0].lower() == 'a' or attack[0].lower() == 's' or attack[0].lower() == 'h'): #checks that they entered a valid option
                     print('test')
                     break
             except:
                     print('This is not a valid input, please enter a, s, or h') #makes them try again if they entered something invalid
                     continue
-
+'''
         if(attack == 's'): #if they chose sword, this runs sword
             print('sword')
             pass
@@ -38,3 +38,4 @@ if __name__ == '__main__':
             pass
         elif(attack == 'h'): #If they chose heal, this runs heal
             pass
+            '''
